@@ -1,0 +1,411 @@
+div {
+      
+     border: 1px black solid;
+     padding: 3px;
+     box-sizing: border-box;
+}
+
+.envoltorio {
+
+    background-color: chartreuse;
+    padding: 20px;
+    width: 80%;
+    margin: 0px auto ;
+    width: 80%;
+    position: relative;
+}
+
+.envoltorio div { 
+
+    width: 200px;
+     height: 200px;
+     display: inline-block;
+     
+}
+
+.cont_01 {
+    background-color: cornflowerblue;
+}
+
+.cont_02 { 
+
+    background-color: darkorange;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+}
+
+.cont_03 { 
+    background-color: darkorchid;}
+
+.cont_04 {
+    background-color: gold;
+    display: block !important;
+    width: 600px !important;
+}
+
+.bandera_colombia { 
+
+    width: 400px;
+    height: 250px;
+    padding : 0px !important;
+    box-sizing: border-box !important;
+}
+
+.amarillo {
+    background-color: yellow;
+    height: 110px;
+    border-color: yellow;
+}
+
+.azul_colombia {
+    background-color: blue;
+    height: 70px;
+    border-color: blue;
+}
+
+.rojo_colombia {
+    background-color: red;
+    height: 70px;
+    border-color: red;
+}
+
+.bandera_mexico { 
+
+    width: 400px;
+    height: 250px;
+    padding : 0px !important;
+    box-sizing: border-box !important;
+}
+
+.verde_mexico {
+    background-color:green;
+    display:inline-block;
+    width: 133px;
+    height: 250px;
+}
+
+.blanco_mexico {
+     background-color: white;
+     display:inline-block;
+     width: 124px;
+    height: 250px;
+}
+
+.rojo_mexico {
+
+    background-color: red;
+    display:inline-block;
+    width: 133px;
+    height: 250px;
+}
+
+.bandera_mexico div {
+    padding: 0px !important;
+    margin: 0px !important;
+    border: none;
+    box-sizing: border-box !important;
+}
+
+img {position: relative;right: -163px;top: -160px;}
+
+.bandera_españa {
+    width: 400px;
+    height: 250px;
+    padding : 0px !important;
+    box-sizing: border-box !important;
+}
+
+.rojo_españa {
+    background-color: red;
+    height: 74px;
+    border-color: red;
+}
+
+.amarillo_españa {
+    background-color: yellow;
+    height: 100px;
+    border-color: yellow;
+
+}
+
+.rojo_españa {
+    background-color: red;
+    height: 74px;
+    border-color: red;
+}
+
+.españaescudo {
+    position: relative;left: 90px;
+
+
+
+}
+
+.bandera_japon {
+    width: 400px;
+    height: 250px;
+    padding : 0px !important;
+    box-sizing: border-box !important;
+}
+
+.blanco_japon { 
+    background-color: white;
+    height: 250px;
+    position: relative;
+}
+
+.rojo_japon {
+    background-color: rgb(199, 15, 15);
+    height: 90px;
+    position: relative ;width: 90px;left:157px;top:-169px;
+    border-radius: 60%;
+    border-color: rgb(199, 15, 15);
+
+}
+
+.bandera_islandia { 
+    width: 400px;
+    height: 250px;
+    padding : 0px !important;
+    box-sizing: border-box !important;
+    background-color: red;
+    box-sizing: border-box !important;
+}
+
+.azul_islandia1 { background-color: blue;
+                height: 100px;
+                width: 125px;
+                border-right: white solid 15px;
+                border-bottom: solid white 15px;
+                
+
+}
+
+.azul_islandia2 { background-color: blue;
+                position: relative;width: 248px;left: 150px;top: -100px;
+                height: 100px;
+                border-left: white solid 15px;
+                border-bottom: white solid 15px;
+               
+}
+
+.azul_islandia3 { background-color: blue;
+                  height: 110px;
+                  width: 125px;
+                  position:relative; top:-62px; 
+                  border-right: white solid 15px;
+                  border-top: white solid 15px;
+                }
+
+.azul_islandia4 {background-color: blue;
+                position: relative;width: 248px;left: 150px;top:-172px;
+                height: 111px;
+                border-top: white solid 15px;
+                border-left: white solid 15px; }
+
+.bandera_chile { 
+    width: 400px;
+    height: 250px;
+    padding : 0px !important;
+    box-sizing: border-box !important; }
+
+.azul_chile { background-color: blue;
+    height: 121px;
+    width: 125px;
+    border-color: blue;
+}
+
+.blanco_chile { background-color: white;
+                position: relative; width: 274px;height: 121px;left: 125px;top: -121px;
+                border: white;
+}
+
+.rojo_chile { background-color: red;
+              position: relative; width: 399px;height: 128px;left: 0px;top: -121px;
+              border-color: red;
+}
+
+.estrella { 
+
+    display: inline-block;
+    position: absolute;
+    top: 1730px;
+    left: 30px;
+    width: 90px;
+    height: 90px;
+    background-color:white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.bandera_brasil { 
+    width: 400px;
+    height: 250px;
+    padding : 0px !important;
+    box-sizing: border-box !important; }
+
+.verde_brasil {background-color: green;
+width: 400px;
+height: 250px;
+}
+
+.rombo_brasil {
+    width: 170px; 
+    height: 170px; 
+    border: 0px solid green; 
+    background: yellow;
+    -webkit-transform: rotate(135deg) skew(15deg, 15deg);
+    -moz-transform: rotate(135deg) skew(15deg, 15deg);
+    -ms-transform: rotate(135deg) skew(15deg, 15deg);
+    -o-transform: rotate(135deg) skew(15deg, 15deg);
+    transform: rotate(135deg) skew(15deg, 15deg);
+    position: relative;left: 110px;top: -210px;
+}
+
+.circulo_brasil {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: blue;
+    border-color: blue;
+    position: relative;left: 146px;top: -348px;
+}
+
+.bandera_pakistan { 
+
+    width: 400px;
+    height: 250px;
+    padding : 0px !important;
+    box-sizing: border-box !important;
+}
+
+.blanco_pakistan { background-color: rgb(255, 255, 255);
+    width: 130px;height: 250px;border-color: white;
+    position: relative;top: -1px;
+}
+
+.verde_pakistan {background-color: rgb(24, 92, 24);
+                position: relative;width: 268px;left: 130px;top: -250px;height: 250px;
+                border-color: transparent;
+}
+
+
+.estrella_pakistan {
+
+    display: inline-block;
+    position: absolute;
+    top: 2400px;
+    left: 275px;
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transform: rotate(35deg);
+}
+
+.luna { width: 170px;
+    height: 170px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 30px 10px 0 #ffffff;
+    -webkit-box-shadow: 30px 10px 0 #ffffff;
+    box-shadow: 30px 10px 0 #ffffff;
+position: relative;top: -480px;left: 210px;
+    border-color: transparent;
+    transform: rotate(125deg);
+}
+                
+.bandera_coreadelsur { 
+
+    width: 400px;
+    height: 250px;
+    padding : 0px !important;
+    box-sizing: border-box !important;
+}
+
+.blanco_coreadelsur { background-color: white;
+    width: 400px;
+    height: 250px;
+}
+
+.semicirculo {
+    width: 130px; 
+    height: 65px; 
+    background: red;
+    -moz-border-radius: 100px 100px 0 0;
+    -webkit-border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 0 0;
+    position:relative;
+    left: 130px;
+    top: 60px;
+}
+
+.semicirculo_02 {
+    width: 130px; 
+    height: 65px; 
+    background: blue;
+    border-color: blue;
+    -moz-border-radius: 100px 100px 0 0;
+    -webkit-border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 0 0;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    position:relative;
+    left: 130px;
+    top: 60px;
+}
+
+.circulo_01 {
+    width: 65px;
+    height: 65px;
+    position: relative;top: 30px;
+    top: -40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: red;
+    border-color: red;
+    left: 130px;
+}
+
+.circulo_02 {
+    width: 65px;
+    height: 65px;
+    position: relative;top: 30px;
+    top: -100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: blue;
+    border-color: blue;
+    left: 195px;
+} 
+
+.yinyang {position: relative;left: -0px !important;top: -255px;
+        width: 400px;
+        height: 250px;
+        background: transparent;
+        border-color: transparent;
+}
+
+.trigramas {
+    
+    position: relative;left: 85px;top: -245px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
